@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title><%= t('title') %></title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-    <%= yield %>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a href="/"><%= t('home') %></a></li>
+            <li><a href="/programmers"><%= t('programmers') %></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="corpo container">
+      <%= yield %>
+    </div>
+    <footer>
+      <div class="container">
+        UNIPE 2017
+      </div>
+    </footer>
   </body>
 </html>

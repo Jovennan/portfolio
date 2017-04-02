@@ -1,0 +1,18 @@
+pt-BR:
+  attention: 'Atenção!'
+  back: 'Voltar'
+  cancel: 'Cancelar'
+  confirm: 'Confirmar'
+  confirm_exclusion: 'Você confirma a exclusão de '
+  delete: 'Remover'
+  edit: 'Editar'
+  id: 'ID'
+  name: 'Nome'
+  new_programmer: 'Novo Programador'
+  programmers: 'Programadores'
+  show: 'Mostrar'
+  helpers:
+    submit:
+      programmer:
+        create: 'Cadastrar Programador'
+        update: 'Atualizar Programador'

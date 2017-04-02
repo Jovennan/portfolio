@@ -1,0 +1,19 @@
+en:
+  attention: 'Attention!'
+  back: 'Back'
+  cancel: 'Cancel'
+  confirm: 'Confirm'
+  confirm_exclusion: 'Do you confirm the exclusion of '
+  delete: 'Delete'
+  edit: 'Edit'
+  id: 'ID'
+  name: 'Name'
+  new_programmer: 'New Programmer'
+  programmers: 'Programmers'
+  show: 'Show'
+
+  helpers:
+    submit:
+      programmer:
+        create: 'Upload %{model}'
+        update: 'Update %{model}'

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%=  t('programmers') %></h1>
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th><%= t('id') %></th>
+        <th><%= t('name') %></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @programmers.each do |programmer| %>
+        <tr>
+          <td><%= programmer.id %></td>
+          <td><%= programmer.name %></td>
+          <td><%= link_to t('show'), programmer_path(programmer),
+          class: 'btn btn-info' %></td>
+          <td><%= link_to t('edit'), edit_programmer_path(programmer),
+          class: 'btn btn-warning' %></td>
+          <td><%= link_to t('delete'), programmer_path(programmer),
+          class: 'btn btn-danger', method: :delete,
+            data: {
+              title: t('attention'),
+              confirm: t('confirm_exclusion') + programmer.name + '?',
+              commit: t('delete'), cancel: t('cancel')
+            } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<%= link_to t('new_programmer'), new_programmer_path,
+class: 'btn btn-primary' %>
