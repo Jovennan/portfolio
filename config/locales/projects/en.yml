@@ -1,0 +1,20 @@
+en:
+  attention: 'Attention!'
+  back: 'Back'
+  client: 'Client'
+  cancel: 'Cancel'
+  confirm: 'Confirm'
+  confirm_exclusion: 'Do you confirm the exclusion of '
+  delete: 'Delete'
+  edit: 'Edit'
+  id: 'ID'
+  description: 'Description'
+  new_project: 'New Project'
+  projects: 'Projects'
+  show: 'Show'
+
+  helpers:
+    submit:
+      project:
+        create: 'Upload %{model}'
+        update: 'Update %{model}'

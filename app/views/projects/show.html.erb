@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+<div class="panel panel-primary">
+    <div class="panel-heading"><strong><%= t('project') %>:</strong>
+      <%= @project.description %>
+    </div>
+    <div class="panel-body">
+      <p><strong><%=  t('id') %>:</strong><%= @project.id %></p>
+
+      <p><strong><%=  t('client') %>:</strong><%= @project.client.name %></p>
+
+      <p><strong><%=  t('programmer') %>:</strong><%= @project.programmer.name %></p>
+    </div>
+</div>
+<%= link_to 'Editar', edit_project_path(@project),
+class: 'btn btn-warning' %> |
+<%= link_to 'Voltar', projects_path,
+class: 'btn btn-default' %>

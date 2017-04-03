@@ -1,0 +1,19 @@
+pt-BR:
+  attention: 'Atenção!'
+  back: 'Voltar'
+  cancel: 'Cancelar'
+  confirm: 'Confirmar'
+  confirm_exclusion: 'Você confirma a exclusão de '
+  delete: 'Remover'
+  edit: 'Editar'
+  id: 'ID'
+  name: 'Nome'
+  new_client: 'Novo Cliente'
+  clients: 'Clientes'
+  show: 'Mostrar'
+  error_save_client: 'proibido salvar este cliente:'
+  helpers:
+    submit:
+      client:
+        create: 'Cadastrar Cliente'
+        update: 'Atualizar Cliente'

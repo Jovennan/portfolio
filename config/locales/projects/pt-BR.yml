@@ -1,0 +1,21 @@
+pt-BR:
+  attention: 'Atenção!'
+  back: 'Voltar'
+  cancel: 'Cancelar'
+  client: 'Cliente'
+  confirm: 'Confirmar'
+  confirm_exclusion: 'Você confirma a exclusão de '
+  delete: 'Remover'
+  edit: 'Editar'
+  id: 'ID'
+  description: 'Descrição'
+  new_project: 'Novo Projeto'
+  programmer: 'Programador'
+  projects: 'Projetos'
+  project: 'Projeto'
+  show: 'Mostrar'
+  helpers:
+    submit:
+      project:
+        create: 'Cadastrar Projeto'
+        update: 'Atualizar Projeto'

@@ -1,0 +1,20 @@
+en:
+  attention: 'Attention!'
+  back: 'Back'
+  cancel: 'Cancel'
+  confirm: 'Confirm'
+  confirm_exclusion: 'Do you confirm the exclusion of '
+  delete: 'Delete'
+  edit: 'Edit'
+  id: 'ID'
+  name: 'Name'
+  new_client: 'New Client'
+  clients: 'Clients'
+  show: 'Show'
+  error_save_client: 'prohibited this client from being saved:'
+
+  helpers:
+    submit:
+      client:
+        create: 'Upload %{model}'
+        update: 'Update %{model}'
